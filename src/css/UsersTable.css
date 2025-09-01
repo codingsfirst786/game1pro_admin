@@ -1,0 +1,84 @@
+.user-table-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* fill all remaining vertical space */
+}
+
+/* Search bar at top */
+.table-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid #00ff88;
+}
+
+.table-search input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+/* Table container fills remaining space */
+.table-responsive {
+  flex: 1; /* take remaining space */
+  overflow-y: auto; /* scroll if table is taller */
+}
+
+/* Table styling */
+.withdraw-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.withdraw-table th,
+.withdraw-table td {
+  padding: 10px;
+  border: 1px solid #00ff88;
+  text-align: left;
+  color: #fff;
+}
+
+.withdraw-table th {
+  background: rgba(0, 255, 136, 0.1);
+}
+
+.withdraw-table tr:nth-child(even) {
+  background: rgba(20, 20, 20, 0.3);
+}
+
+/* Account list inside table */
+.withdraw-table ul {
+  padding-left: 18px;
+  margin: 0;
+}
+.active-btn {
+  background-color: #00c853;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.active-btn:hover {
+  background-color: #009624;
+}
+
+.blocked-btn {
+  background-color: #d50000;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.blocked-btn:hover {
+  background-color: #9b0000;
+}

@@ -1,0 +1,35 @@
+/* Page background */
+.withdraw-page {
+  background: #141414;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout */
+.withdraw-layout {
+  display: flex;
+  min-height: 100vh; /* full screen */
+  width: 100%;
+}
+
+/* Sidebar */
+.withdraw-sidebar {
+  width: 30%;
+  min-height: 100vh;
+  background: #1c1c1c;
+  border-right: 1px solid #00ff88;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Content fills remaining height */
+.withdraw-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh; /* ensures full height */
+}
