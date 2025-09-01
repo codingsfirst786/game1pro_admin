@@ -1,0 +1,114 @@
+.remove-container {
+  padding: 30px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.remove-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e11d48;
+}
+
+.remove-form {
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+.form-group input:focus {
+  border-color: #e11d48;
+  box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.2);
+}
+
+.user-preview {
+  background: #fff0f3;
+  border: 1px solid #fbcfe8;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.remove-btn {
+  background: #e11d48;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.remove-btn:hover {
+  background: #be123c;
+  transform: scale(1.03);
+}
+
+.transactions {
+  margin-top: 30px;
+}
+
+.transactions h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transactions-table th {
+  background: #f3f4f6;
+  font-weight: 600;
+}
+
+.transactions-table tr:hover {
+  background: #fdf2f8;
+}
+
+.removed {
+  color: #e11d48;
+  font-weight: 600;
+}

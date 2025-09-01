@@ -1,0 +1,117 @@
+.addcoin-container {
+  padding: 30px;
+  min-height: 100vh;
+  background: #f4f6f9;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1f2937;
+}
+
+.addcoin-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-group label {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.agent-preview {
+  font-size: 14px;
+  color: #111827;
+  background: #eef2ff;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+/* Table */
+.table-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.table-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.records-table th,
+.records-table td {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.records-table th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #9ca3af;
+  font-style: italic;
+}

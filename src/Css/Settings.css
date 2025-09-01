@@ -1,0 +1,135 @@
+.settings-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.settings-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.settings-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-pic-container {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3498db;
+}
+
+.upload-btn {
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.upload-btn:hover {
+  background: #2980b9;
+}
+
+.profile-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group p {
+  background: black;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #3498db;
+}
+
+.btn-group {
+  margin-top: 25px;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.edit-btn {
+  background: #3498db;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+.save-btn {
+  background: #27ae60;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background: #1e8449;
+  transform: scale(1.05);
+}
+
+.cancel-btn {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+.profile-details input{
+    color: black;
+}

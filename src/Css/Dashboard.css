@@ -1,0 +1,87 @@
+.dashboard-container {
+  padding: 30px;
+  background: #f4f7fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Different Colors for Each Card */
+.card.users {
+  border-left: 6px solid #007bff;
+}
+
+.card.withdraws {
+  border-left: 6px solid #28a745;
+}
+
+.card.active-users {
+  border-left: 6px solid #17a2b8;
+}
+
+.card.blocked-users {
+  border-left: 6px solid #dc3545;
+}
+
+.card.today-requests {
+  border-left: 6px solid #ffc107;
+}
+
+.card.agents {
+  border-left: 6px solid #6f42c1;
+}
+
+.card.coins {
+  border-left: 6px solid #20c997;
+}
+
+.card.today-earning {
+  border-left: 6px solid #ff5733;
+}
+
+.card.weekly-earning {
+  border-left: 6px solid #00b894;
+}
+
+.card.total-earning {
+  border-left: 6px solid #343a40;
+}
